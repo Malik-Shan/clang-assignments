@@ -9,7 +9,7 @@ int main()
     // time returns pointer to time_t object.
     printf("Generate Random Number from 1 - 100\n");
     srand(time(NULL));
-    r = (rand() % (100 + 1));
+    r = (rand() % 100 + 1);
     printf("%d", r);
     return 0;
 }
